@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 ICE_COMPLETED = 1
 ICE_FAILED = 2
 
-CONSENT_FAILURES = 6
-CONSENT_INTERVAL = 5
+CONSENT_FAILURES = 10
+CONSENT_INTERVAL = 60
 
 connection_id = itertools.count()
 protocol_id = itertools.count()
